@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhagy.fragments.Fragment2">
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:orientation="vertical">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/emailText"
+          android:padding="5dp"
+          android:layout_margin="5dp"
+          android:text="Email"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/nameText"
+          android:padding="5dp"
+          android:layout_margin="5dp"
+          android:text="Name"/>
+  </LinearLayout>  <!-- TODO: Update blank fragment layout -->
+
+
+</FrameLayout>

@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhagy.fragments.Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linear1">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editEmail"
+            android:padding="2dp"
+            android:layout_margin="2dp"
+            android:hint="Enter your email"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editName"
+            android:padding="2dp"
+            android:layout_margin="2dp"
+            android:hint="Enter your name"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:text="GO"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:background="@color/colorAccent"/>
+    </LinearLayout>
+
+
+</FrameLayout>
